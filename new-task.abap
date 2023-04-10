@@ -16,8 +16,8 @@ start-of-selection .
 *-      Form  tcode_new_task
 *----------------------------------------------------------------------*
 form tcode_new_task using tcode
-        parid
-        parval .
+                          parid
+                          parval .
 
   data:
     spagpa_tab  type table of  rfc_spagpa,
