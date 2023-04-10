@@ -2,7 +2,7 @@
 
 [![N|Solid](https://wiki.scn.sap.com/wiki/download/attachments/1710/ABAP%20Development.png?version=1&modificationDate=1446673897000&api=v2)](https://www.sap.com/brazil/developer.html)
 
-Houve a necessidade de que fosse feito um `call transaction` mas este não poderia ser na mesma sessão/janela, pois se tratava de um popup de informação. Concordo que é muita informação em apenas uma mostra, mas para *simplificar* pensei em colocar para que o documento (no meu caso uma Ordem de Vendas para VA03) fosse em uma nova sessão.
+Houve a necessidade de uma chamada `call transaction`, no entanto não poderia ser na mesma sessão/janela, pois se tratava de um popup de informação. Em algumas situações, ao exibir os dados, isso se torna confuso por ter muita informação em uma so tela. Mas para *simplificar* pensei em colocar para que o documento (no meu caso uma Ordem de Vendas para VA03) fosse em uma nova sessão.
 
   - Utilização de Função
   - Chamada de `call transaction`
