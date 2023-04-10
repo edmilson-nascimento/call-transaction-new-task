@@ -4,6 +4,7 @@
 
 Houve a necessidade de uma chamada `call transaction`, no entanto não poderia ser na mesma sessão/janela, pois se tratava de um popup de informação. Em algumas situações, ao exibir os dados, isso se torna confuso por ter muita informação em uma so tela. Mas para *simplificar* pensei em colocar para que o documento (no meu caso uma Ordem de Vendas para VA03) fosse em uma nova sessão.
 
+
   - Utilização de Função
   - Chamada de `call transaction`
   - Filtro para Ordem de Vendas informada na Selection-Screen
@@ -12,7 +13,7 @@ Houve a necessidade de uma chamada `call transaction`, no entanto não poderia s
 
 ```abap
 
-    call function 'ABAP4_CALL_TRANSACTION' starting new task 'TEST'
+    call function 'ABAP4_CALL_TRANSACTION' starting new task 'ZTEST'
       exporting
         tcode                         = tcode
         skip_screen                   = 'X'
